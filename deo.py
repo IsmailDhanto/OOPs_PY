@@ -32,30 +32,37 @@
 # the Construct method:
 
 
-class Construct:
-    def __init__(self):
-        self.name = "Ismail"
-        self.age = 25
+# class Construct:
+#     def __init__(self):
+#         self.name = "Ismail"
+#         self.age = 25
 
 
-    def update(self):
-        self.age = 30
+#     def update(self):
+#         self.age = 30
 
-    def compare(self, other):
-        if self.age == other.age:
-            print("The two objects are equal")
-        else:
-            print("The two objects are not equal")
+#     def compare(self, other):
+#         if self.age == other.age:
+#             return True
+#         else:
+#             return False
+
+# c1 = Construct()
+# c1.age =26
+# c2 = Construct()
+
+# if c1.compare(c2):
+#     print("The two objects are equal")
+# else:
+#     print("The two objects are not equal")
+
+# c1.name = "ilyas"
 
 
-c1 = Construct()
-c2 = Construct()
+# Types of Variables:
 
-if c1.compare(c2):
-    print("The two objects are equal")
 
-c1.name = "ilyas"
-c1.age =26
+
 
 
 
